@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+		<title>Wandering the tweets forest</title>
+		<link rel="stylesheet" type="text/css" href="view.css">
+		<script src="js/main.js" type="module"></script>
+	</head>
+	<body>
+		<canvas id="c"></canvas>
+		
+		<div id="progress_view">
+			<div class="t1_black">Retrieving tweets...</div>
+			<progress id="progress_bar" value="0" max="100"></progress>
+			<div class="t3" id="progress_text">0%</div>
+			<div class="t1_black" id="err_view"></div>
+		</div>
+		
+		<div id="overlay">
+			<div class="t5">
+				Viewing <span id="uname"></span>'s timeline
+			</div>
+			<div class="t1">
+				Use WASD and mouse to move and look around<br>
+				Right click while looking at a tweet to open it.
+				Press ESC to view this.<br><br>
+			</div>
+			
+			<form>
+				<label for="range_in" class="l1">Sight range:</label>
+				<input type="number" class="form_input" id="range_in" value="60">
+				<div class="t2">(higher sight range values may result in lower frame rate)</div>
+			</form>
+
+			<button class="btn1 s_btn" id="res_btn">Start!</button>
+		</div>
+		
+	</body>
+</html>

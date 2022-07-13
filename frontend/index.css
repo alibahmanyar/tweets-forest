@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Jost&display=swap');
+body, html{
+    background-color: white;
+    font-size: 100%;
+    margin: 0;
+}
+#discription{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 10%;
+}
+.s_btn{
+    overflow: hidden;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0);
+    padding: 0;
+  }
+#login_btn{
+    background-color: rgb(13, 181, 223);
+    font-family: 'Jost', sans-serif;
+    font-size: 4rem;
+    margin-top: 5%;
+    border: 0;
+    padding: 1% 1% 1% 1%;
+    border-radius: 1vh;
+    margin-bottom: 2.5vh;
+    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.5);
+}
+.center{
+    align-content: center;
+    text-align: center;
+}

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kalam:400,700|Comfortaa|Raleway|Special+Elite|Yeon+Sung|Roboto:300,400,900|Shadows+Into+Light|Amatic+SC:700|Pacifico&display=swap');
+
+html, body { margin: 0; height: 100%; }
+canvas { display: block; width: 100%; height: 100%;}
+#overlay{
+    z-index: 10;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-content: center;
+    text-align: center;
+}
+.t1{
+    font-size: 3em;
+    font-family: 'Balsamiq Sans', cursive;
+    align-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+}
+
+.t2{
+    font-size: 1.2em;
+    font-family: 'Balsamiq Sans', cursive;
+    align-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.t5{
+    font-size: 2.5em;
+    font-family: 'Balsamiq Sans', cursive;
+    align-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.s_btn{
+    overflow: hidden;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0);
+    padding: 0;
+}
+
+.btn1{
+    font-family: "Raleway";
+    font-size: 3em;
+    background-color: rgb(5, 49, 116);
+    color: white;
+    padding: 1% 1% 1% 1%;
+    margin-top: 40px;
+    border-radius: 1vh;
+    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.form_input{
+    font-family: "Raleway";
+    font-size: 1.7em;
+    margin-top: 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+    padding: 6px;
+    box-shadow: 0px 6px 7px 0px rgba(0, 0, 0, 0.5);
+}
+.form_input:focus {
+    box-shadow: 0px 0px 13px 4px rgba(255, 255, 255, 0.5);
+}
+
+.l1{
+    font-family: "Raleway";
+    font-size: 1.7em;
+    color:white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#progress_view{
+    z-index: 100;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: whitesmoke;
+}
+
+#progress_bar{
+    -webkit-appearance: none;
+    appearance: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 85%;
+    height: 50px;
+    margin-top: 20px;
+}
+#progress_bar::-webkit-progress-bar{
+    -webkit-appearance: none;
+    appearance: none;
+    margin-left: auto;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+#progress_bar::-webkit-progress-value {
+    background-color: darkgreen;
+}
+
+.t1_black{
+    font-size: 4em;
+    font-family: 'Balsamiq Sans', cursive;
+    align-content: center;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+}
+
+.t3{
+    font-size: 2em;
+    font-family: 'Balsamiq Sans', cursive;
+    align-content: center;
+    text-align: center;
+    color: black;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+}

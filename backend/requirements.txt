@@ -1,0 +1,7 @@
+flask
+requests
+requests_oauthlib
+psycopg2
+redis
+celery
+gunicorn
